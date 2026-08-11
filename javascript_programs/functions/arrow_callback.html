@@ -7,8 +7,10 @@
 </head>
 <body>
     <script>
-          let square=(n) => n * n;
-        console.log(square(9));
+      function calculate(callback) { 
+        console.log(callback(10, 20));
+     } 
+     calculate((a, b) => a + b); 
     </script>
 </body>
 </html>
