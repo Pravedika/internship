@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple jQuery Program</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <p id="message">Hello, this is the original text.</p>
+
+    <button id="btn">Click Me</button>
+
+    <script>
+        $(document).ready(function() {
+
+            $("#btn").click(function() {
+                $("#message").text("Hello, jQuery!");
+            });
+
+        });
+    </script>
+</body>
+</html>
