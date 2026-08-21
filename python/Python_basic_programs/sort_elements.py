@@ -1,0 +1,5 @@
+t4 = (34,76,87,44,85,90)
+l2 = list(t4)
+l2.sort()
+t4 = tuple(l2)
+print("last element: ",t4[-1])
